@@ -1,20 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+  <ion-toolbar class="toolbar">
+    <ion-title> PAGAMENTOS </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="back">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="center">
+    <ion-card class="card" [routerLink]= "['/cadastro']">
+      <ion-card-title class="fonte">CADASTRAR CLIENTE</ion-card-title>
+    </ion-card>
   </div>
+
+  <div id="center">
+    <ion-card class="card" [routerLink]= "['/clientes']">
+      <ion-card-title class="fonte">MEUS CLIENTES</ion-card-title>
+    </ion-card>
+  </div>
+
 </ion-content>

@@ -1,0 +1,29 @@
+.toolbar{
+  --background: darkorange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#F4F6F7 ;
+  text-align: center;
+}
+
+.back{
+  --background:#F4F6F7 ;
+}
+
+.back-button{
+  margin-left: 1vh;
+}
+
+
+.fonte{
+  font-style: italic;
+  font-family:cursive;
+  font-size: medium;
+  color: darkorange;
+}
+
+.card{
+  box-shadow: none;
+  border-style: solid;
+  border-color: darkorange;
+  border-width: 2px;
+}

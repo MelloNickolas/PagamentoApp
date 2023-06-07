@@ -24,4 +24,40 @@
 
 #container a {
   text-decoration: none;
+
+}
+.back{
+  --background:#F4F6F7 ;
+}
+.toolbar{
+  --background: darkorange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#F4F6F7 ;
+  text-align: center;
+}
+
+.card{
+  height: 5vh;
+  width:  70%;
+  --background: #F4F6F7;
+  border-style:solid;
+  border-color: darkorange;
+  border-width: 2px;
+  text-align: center;
+  box-shadow: none;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 3vh;
+}
+
+.fonte{
+  font-style: italic;
+  font-family:cursive;
+  font-size: medium;
+  color: darkorange;
+}
+
+#center{
+  display: flex;
+  justify-content: center;
 }
