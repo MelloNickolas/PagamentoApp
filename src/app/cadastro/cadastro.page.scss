@@ -19,6 +19,7 @@
   font-family:cursive;
   font-size: medium;
   color: darkorange;
+
 }
 
 .card{
@@ -26,4 +27,22 @@
   border-style: solid;
   border-color: darkorange;
   border-width: 2px;
+}
+
+.bttn{
+  height: 5vh;
+  width:  70%;
+  border-style:solid;
+  border-color: darkorange;
+  border-width: 2px;
+  text-align: center;
+  box-shadow: none;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 3vh;
+}
+
+#center{
+  display: flex;
+  justify-content: center;
 }
